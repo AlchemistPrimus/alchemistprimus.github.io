@@ -1,0 +1,71 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif sans-serif;
+}
+
+h1 {
+    font-family: 'Rubik Moonrocks';
+    font-size: 4rem;
+    color: rgb(36, 199, 36);
+    text-shadow: 1px 1px 1px black;
+}
+
+.nameArea {
+    padding: 2em 1em 0 0;
+}
+
+.nameBegin {
+    color: rgb(250, 216, 64);
+}
+
+.socioConnect {
+    display: flex;
+}
+
+@media (max-width:200px) {
+    .socialConnect {
+        display: flex;
+        flex-direction: column;
+    }
+    body {
+        font-size: .8em;
+    }
+}
+
+.gitHub {
+    background-color: grey;
+    color: white;
+    padding: .3em;
+    font-size: 1.5rem!important;
+}
+
+.twitter {
+    background-color: rgb(13, 86, 138);
+    color: white;
+    padding: .3em;
+    font-size: 1.5rem!important;
+}
+
+.linkedIn {
+    background-color: rgb(31, 31, 211);
+    color: white;
+    padding: .3em;
+    font-size: 1.5rem!important;
+}
+
+.email {
+    background-color: rgb(205, 54, 69);
+    color: white;
+    padding: .3em;
+    font-size: 1.5rem!important;
+}
+
+.motivationArea {
+    font-size: 2em;
+    padding: .5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.socialMedia {
+    font-size: 2em;
+    padding: .5em;
+}
